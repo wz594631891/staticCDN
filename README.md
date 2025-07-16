@@ -28,6 +28,28 @@
 <script src="js/jquery.js"></script>
 ```
 
+### CDN链接 (jsDelivr)
+本项目支持通过jsDelivr CDN加速访问资源，格式如下：
+```
+https://fastly.jsdelivr.net/gh/wz594631891/staticCDN@版本号/文件路径
+```
+> 提示：若未指定版本号，默认使用最新版本。建议添加版本号以确保稳定性<mcreference link="https://blog.csdn.net/nineya_com/article/details/103498700" index="3">3</mcreference>。
+
+#### 示例
+- **Bootstrap CSS**:
+  ```html
+  <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/wz594631891/staticCDN/css/bootstrap.min.css">
+
+  ```
+- **jQuery JS**:
+  ```html
+  <script src="https://fastly.jsdelivr.net/gh/wz594631891/staticCDN/js/jquery.min.js"></script>
+  ```
+- **压缩版本** (自动生成):
+  ```html
+  <script src="https://fastly.jsdelivr.net/gh/wz594631891/staticCDN/js/bootstrap.min.js"></script>
+  ```
+
 ## 包含的主要库
 
 - Bootstrap
